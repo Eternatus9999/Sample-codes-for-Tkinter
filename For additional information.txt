@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/create-first-gui-application-using-python-tkinter/ - full guid(beginner)
+
+https://www.geeksforgeeks.org/python-menu-widget-in-tkinter/ - how to add menu bar
