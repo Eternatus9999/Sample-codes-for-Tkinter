@@ -12,7 +12,7 @@ lbl.grid()
 def clicked():
     lbl.configure(text="Button Clicked")
 
-btn = Button(root, text="Click Me", fg = "red", command=clicked)
+btn = Button(root, text="Click Me", fg = "red", bg= "yellow", command=clicked, activebackground="lime", activeforeground="blue")
 btn.grid(column=1, row=0)
 
 root.mainloop()
