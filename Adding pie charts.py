@@ -16,7 +16,7 @@ frame.pack(pady=20, padx=20, fill="both", expand=True)
 
 # Create the matplotlib Figure and Axes
 fig, ax = plt.subplots()
-ax.pie(students, labels=labels, autopct='%1.1f%%',textprops={'color': '#ffffff', 'fontsize': 12})
+ax.pie(students, labels=labels, autopct='%1.1f%%', textprops={'color': '#ffffff', 'fontsize': 12})
 ax.set_title("Student Distribution")
 
 fig.patch.set_facecolor("#000000")
